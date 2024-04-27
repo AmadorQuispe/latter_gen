@@ -1,0 +1,20 @@
+.my_grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2em;
+}
+
+/*Size : 8.27in and 11.69 inches*/
+@page Section1 { 
+    size:8.27in 11.69in; 
+    margin:.5in .5in .5in .5in; 
+    mso-header-margin:.5in; 
+    mso-footer-margin:.5in; 
+    mso-paper-source:0; 
+} 
+.a4{ 
+    /*page:Section1; */
+    width: 8.27in;
+    height: 11.69in;
+}
+
